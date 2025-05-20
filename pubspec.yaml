@@ -1,0 +1,32 @@
+name: pastillero_inteligente
+description: Una aplicación de seguimiento de medicamentos con algoritmos de ML
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.7.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  # Gestión de estado
+  provider: ^6.1.1
+  
+  # Red y almacenamiento
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  
+  # Utilidades
+  intl: ^0.18.1
+  uuid: ^4.0.0
+  url_launcher: ^6.1.14
+  
+  # Extras
+  cupertino_icons: ^1.0.5
+
+  font_awesome_flutter: ^10.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
